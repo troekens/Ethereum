@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e14d8d5-6ad4-4b8a-8e6a-a6ea976d3cc1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/contracts/lottery.sol" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/lottery.test.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/compile.js" afterPath="$PROJECT_DIR$/compile.js" />
-      <change beforePath="$PROJECT_DIR$/contracts/inbox.sol" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/deploy.js" afterPath="$PROJECT_DIR$/deploy.js" />
-      <change beforePath="$PROJECT_DIR$/test/Inbox.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/lottery.test.js" afterPath="$PROJECT_DIR$/test/lottery.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,17 +37,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lottery.test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lottery.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/lottery.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1455">
+              <caret line="97" column="3" lean-forward="false" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deploy.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -87,6 +82,7 @@
         <option value="$PROJECT_DIR$/contracts/lottery.sol" />
         <option value="$PROJECT_DIR$/compile.js" />
         <option value="$PROJECT_DIR$/deploy.js" />
+        <option value="$PROJECT_DIR$/test/lottery.test.js" />
       </list>
     </option>
   </component>
@@ -196,7 +192,7 @@
       <workItem from="1546707213617" duration="3105000" />
       <workItem from="1546889877299" duration="6051000" />
       <workItem from="1547477530949" duration="1348000" />
-      <workItem from="1547490815875" duration="491000" />
+      <workItem from="1547490815875" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit">
       <created>1547478811048</created>
@@ -205,11 +201,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547478811048</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test commit">
+      <created>1547492852099</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547492852099</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11663000" />
+    <option name="totallyTimeSpent" value="11768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,14 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/lottery.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -457,6 +452,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lottery.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="97" column="3" lean-forward="false" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
           <folding />
         </state>
       </provider>
