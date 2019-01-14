@@ -11,7 +11,7 @@ const web3 = new Web3(provider);
 const deploy = async () => { //This function is only made to use the async() - await syntax. Because you cannot use await outside of an existing function
     const accounts = await web3.eth.getAccounts();
 
-    console.log('Attempting to deploy from account', accounts[0]);
+    console.log('Attempting to deploy from account : ', accounts[0]);
 
     const result = await new web3.eth.Contract(JSON.parse(interface)) //Interface is the ABI, it is the translation layer thats communicate data from the network over to the javascript world //Bytcode is our compiled contract
         .deploy({ data: bytecode, arguments: ['Hi there!'] })
