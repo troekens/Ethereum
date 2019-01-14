@@ -14,7 +14,7 @@ const deploy = async () => { //This function is only made to use the async() - a
     console.log('Attempting to deploy from account : ', accounts[0]);
 
     const result = await new web3.eth.Contract(JSON.parse(interface)) //Interface is the ABI, it is the translation layer thats communicate data from the network over to the javascript world //Bytcode is our compiled contract
-        .deploy({ data: bytecode, arguments: ['Hi there!'] })
+        .deploy({ data: bytecode })
         .send({ gas: '1000000', from: accounts[0] });
 
     console.log('Contract deployed to', result.options.address);
